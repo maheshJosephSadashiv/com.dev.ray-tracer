@@ -71,7 +71,6 @@ if __name__ == "__main__":
     matrix = [[(255,255,255) for i in range(Cw)] for j in range(Ch)]
     for sphere in spheres:
         spheresObj.append(Sphere(sphere[0], sphere[1], sphere[2]))
-    print(spheresObj)
     for x in range(-Cw//2, Cw//2):
         for y in range(-Ch//2, Ch//2):
             D = CanvasToViewport(x, y)
