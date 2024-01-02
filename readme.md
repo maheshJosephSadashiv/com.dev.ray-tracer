@@ -26,6 +26,8 @@ for each pixel in canvas:
     pixel.setColor(color)
 ```
 The `convert_pixel_into_viewport(pixel)` function converts from the pixel coordinate system to the viewport/cartesian coordinate system. The equation for this is x = V_l/canvas_l + pixel_x and y = V_h/canvas_h - pixel_y. 
+<img width="374" alt="Screenshot 2024-01-02 at 2 58 28 PM" src="https://github.com/maheshJosephSadashiv/ComputerGraphics/assets/38533715/68333049-282a-4a8a-ae17-6ca8fe4bb21d">
+
 
 After implementing the above algorithm and adding 3 spheres to our scene we get the following.
 <img width="374" alt="Screenshot 2024-01-02 at 2 58 28 PM" src="https://github.com/maheshJosephSadashiv/ComputerGraphics/assets/38533715/f488835c-9a92-4375-830d-02d8fc104d78">
