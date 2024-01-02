@@ -20,10 +20,11 @@ The idea behind ray tracing is to determine the color for each pixel in the canv
 The algorithm that follows is a very simple one:
 ```
 for each pixel in canvas:
-    view_point = convert_pixel_into_viewport(pixel)
+    view_point = convert_pixel_into_viewport(pixel.x, pixel.y)
     ray = create_ray(camera_position, view_point)
     color = find_nearest_interseting_objects(objects, ray)
     pixel.setColor(color)
 ```
+The `convert_pixel_into_viewport(pixel)` function converts from the pixel coordinate system to the viewport/cartesian coordinate system. The equation for this is x = V_l/canvas_l + pixel_x and y = V_h/canvas_h - pixel_y. 
 
-
+After implementing the above algorithm and putting 3 spheres into our scene we get the following
