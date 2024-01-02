@@ -14,6 +14,7 @@ Firstly let's define a few terminologies that might not be apparent right now:
  - viewport: a rectangle (of length V_l, V_h) that acts as our window to the scene, a viewport determines our field of view
 
 The idea behind ray tracing is to determine the color for each pixel in the canvas. This is done by projecting rays originating from the camera-location towards the viewport and finally onto the scene. Let us assume that the camera is placed at the origin of a cartesian coordinate system i.e (0, 0, 0) and our viewport is placed such that the z-axis goes through the center of the viewport and is parallel to the x-y plane at a distance of d = 1 from the origin. As shown below.
+
 ![view_port](https://github.com/maheshJosephSadashiv/ComputerGraphics/assets/38533715/abaebbb8-0e54-4ba7-a3bd-7fc315327285)
 
 
