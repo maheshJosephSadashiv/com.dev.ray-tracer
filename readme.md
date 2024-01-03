@@ -30,3 +30,10 @@ The `convert_pixel_into_viewport(pixel)` function converts from the pixel coordi
 After implementing the above algorithm and adding 3 spheres to our scene we get the following.
 
 <img width="374" alt="Screenshot 2024-01-02 at 2 58 28 PM" src="https://github.com/maheshJosephSadashiv/ComputerGraphics/assets/38533715/f488835c-9a92-4375-830d-02d8fc104d78">
+
+Doesn't seem right does it, where is the 3-D effects!! we can fix that by adding some lighting. We are going to use 3 sources of light:
+ - ambitent light: light source that is present in all directions
+ - point light: a single source of light whose location is known
+ - directional light: light source which only has direction
+
+The effects of lighting in a scene can be rendered by calculating the intensity of light reflected back on to the viewport in other words we need to calculate the intencity of each po is the interaction of the light with the . 
