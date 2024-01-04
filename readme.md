@@ -37,4 +37,5 @@ Doesn't seem right does it, where are the 3-D effects!! we can fix that by addin
  - directional light: light source which only has direction
 
 The effects of lighting in a scene can be rendered by calculating the sum of all intensities of light from different light sources reflected back onto the viewport and tada we get the following effect.
+
 <img width="377" alt="Screenshot 2024-01-03 at 3 36 52 PM" src="https://github.com/maheshJosephSadashiv/ComputerGraphics/assets/38533715/523744fc-9332-405c-9b23-6d42139aa3e2">
