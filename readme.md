@@ -13,7 +13,7 @@ Firstly let's define a few terminologies that might not be apparent right now:
  - camera-position: the location where you would put your eyes to view the scene
  - viewport: a rectangle (of length V_l and height V_h) that acts as our window to the scene, a viewport determines our field of view
 
-The idea behind ray tracing is to determine the color for each pixel in the canvas. This is done by projecting rays originating from the camera-location towards the viewport and finally onto the scene. Let us assume that the camera is placed at the origin of a cartesian coordinate system i.e (0, 0, 0) and our viewport is placed such that the z-axis goes through the center of the viewport and is parallel to the x-y plane at a distance of d = 1 from the origin. As shown below.
+The idea behind ray tracing is to determine the color of each pixel in the canvas. This is done by projecting rays originating from the camera-location towards the viewport and finally onto the scene. Let us assume that the camera is placed at the origin of a cartesian coordinate system i.e (0, 0, 0) and our viewport is placed such that the z-axis goes through the center of the viewport and is parallel to the x-y plane at a distance of d = 1 from the origin. As shown below.
 
 ![view_port](https://github.com/maheshJosephSadashiv/ComputerGraphics/assets/38533715/abaebbb8-0e54-4ba7-a3bd-7fc315327285)
 
@@ -31,9 +31,10 @@ After implementing the above algorithm and adding 3 spheres to our scene we get 
 
 <img width="374" alt="Screenshot 2024-01-02 at 2 58 28 PM" src="https://github.com/maheshJosephSadashiv/ComputerGraphics/assets/38533715/f488835c-9a92-4375-830d-02d8fc104d78">
 
-Doesn't seem right does it, where is the 3-D effects!! we can fix that by adding some lighting. We are going to use 3 sources of light:
- - ambitent light: light source that is present in all directions
+Doesn't seem right does it, where are the 3-D effects!! we can fix that by adding some lighting. We are going to use 3 sources of light:
+ - ambient light: a light source that is present in all directions
  - point light: a single source of light whose location is known
  - directional light: light source which only has direction
 
 The effects of lighting in a scene can be rendered by calculating the sum of all intensities of light from different light sources reflected back onto the viewport and tada we get the following effect.
+<img width="377" alt="Screenshot 2024-01-03 at 3 36 52 PM" src="https://github.com/maheshJosephSadashiv/ComputerGraphics/assets/38533715/523744fc-9332-405c-9b23-6d42139aa3e2">
