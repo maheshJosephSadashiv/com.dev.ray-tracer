@@ -36,4 +36,4 @@ Doesn't seem right does it, where is the 3-D effects!! we can fix that by adding
  - point light: a single source of light whose location is known
  - directional light: light source which only has direction
 
-The effects of lighting in a scene can be rendered by calculating the intensity of light reflected back on to the viewport in other words we need to calculate the intencity of each po is the interaction of the light with the . 
+The effects of lighting in a scene can be rendered by calculating the sum of all intensities of light from different light sources reflected back onto the viewport and tada we get the following effect.
