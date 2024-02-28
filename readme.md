@@ -41,3 +41,7 @@ The effects of lighting in a scene can be rendered by calculating the sum of all
 <img width="377" alt="Screenshot 2024-01-03 at 3 36 52 PM" src="https://github.com/maheshJosephSadashiv/ComputerGraphics/assets/38533715/523744fc-9332-405c-9b23-6d42139aa3e2">
 
 Here are the output rendered images after applying specular lighting and reflections!!
+![image](https://github.com/maheshJosephSadashiv/com.dev.ray-tracer/assets/38533715/eb1b14d9-b7fb-4b2c-9bf3-f354ad01ea41)
+![image](https://github.com/maheshJosephSadashiv/com.dev.ray-tracer/assets/38533715/648bdca1-6be0-4aeb-9a25-55176d6aeefc)
+
+
