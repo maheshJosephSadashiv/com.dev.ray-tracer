@@ -1,4 +1,4 @@
-# Ray Tracing for noobs
+# Ray Tracing for beginners
 
 Being a gaming fan, The GTA 6 trailer was amazing the animation and computer graphics were so good that this got me thinking, how is it possible to render each strand of hair such that it flows over a person's shoulder or even reacts to the wind being blown. Just amazing!! This inspired a wave of curiosity in me and made me think about computer graphics a topic that is often overlooked by native software developers such as myself. In this post, I’ll be going over simple raytracing, along with lighting, shadows, and reflections with the implementations as well. 
 
